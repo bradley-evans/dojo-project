@@ -1,0 +1,16 @@
+Device: Raspberry Pi 3
+OS: Raspbian
+
+Emissary is a Linux/Apache/MySQL/PHP server. It also hosts an SSH connection for
+remote administration and is the principle public-facing device in the topology.
+
+Access Restrictions:
+    Accessible only from within the LAN. 
+
+Special Software:
+    OSSEC Client
+    ModSecurity Web Application Firewall (configured to interface with OSSEC)
+    Apache
+    WordPress
+    SMTP: postfix
+    NoIP Dynamic DNS Client
