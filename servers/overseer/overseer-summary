@@ -1,8 +1,8 @@
 Device: Raspberry Pi 2 B
 OS: Raspbian
 
-Overseer is a central configuration management service. It enforces security 
-policy across the network.
+Overseer is a central configuration management service. It enforces 
+security policy across the network.
 
 Access Restrictions:
     Accessible only from within the LAN. 
